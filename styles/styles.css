@@ -34,7 +34,7 @@ button, input, span#first {
 	vertical-align : middle;
 	cursor : pointer;
 	border : 2px #DDDDDD solid;
-	border-radius : 5px;
+	border-radius : 25px;
 	font-weight : bold;
 	width : 19%;
 	height : 99%;
@@ -110,23 +110,23 @@ button, input, span#first {
 }
 
 .redStarts{
-	border-left: #ff0000;
+	border-left: #E81C28;
 	border-left-style: solid;
 }
 .blueStarts{
-	border-left: #00eeee;
+	border-left: #087FA8;
 	border-left-style: solid;
 }
 
 #redScore{
-	color: #ff0000;
+	color: #E81C28;
 	font-size: 23px;
 	flex-grow: 1;
 	text-align: center;
 }
 #blueScore{
 	text-align: center;
-	color: #00eeee;
+	color: #087FA8;
 	font-size: 23px;
 	flex-grow: 1;
 }
